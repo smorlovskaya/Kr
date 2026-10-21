@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Фото</title>
+
+  <style>
+   .menu-wrapper {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .menu {
+      display: inline-block;
+      text-align: left;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu li {
+      margin: 5px 0;
+    }
+
+    .menu a {
+      display: block;
+      padding: 8px 16px;
+      text-decoration: none;
+      color: #7a1f1f;
+      border: 1px solid #d4c8b0;
+      background: #faf7f2;
+    }
+
+    .menu a:hover {
+      background-color: antiquewhite;
+    }
+
+    .menu a.active {
+      background-color: burlywood;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    ol {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 20px;
+}
+
+  </style>
+
+  <style>
+    figure {
+      background: #778899;
+      padding: 20px;
+      margin: 0 auto 30px auto;
+      text-align: center;
+      display: block;
+      width: fit-content;
+    }
+    figcaption {
+      color: #000;
+    }
+    figure img {
+      border: 5px solid #000;
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+  </style>
+
+</head>
+<body>
+
+<a href="kr.html" class="back"><img src="strelka.jpeg" width="100" alt="назад"style="margin-left: 350px;"></a>
+<a id="back"></a>
+
+<h1>Меню</h1>
+   <div class="menu-wrapper">
+    <ul class="menu">
+      <li><a href="kr.html">Главная</a></li>
+      <li><a href="table.html">Таблица</a></li>
+      <li><a href="photo.html" class="active">Фото</a></li>
+      <li><a href="form.html">Форма с личными данными</a></li>
+      <li><a href="form2.html">Отзывы</a></li>
+      <li><a href="dom.html">DOM_JS</a></li>
+      <li><a href="passport2.html">Изменяем кириллицу на латиницу по клику</a></li>
+      <li><a href="task1.html">Решение алгоритмической задачи</a></li>
+    </ul>
+  </div>
+
+<h1>Соборы Золотого кольца России</h1>
+<ol>
+<a href="#uspenskiy_sobor"><li>Успенский собор во Владимире</li></a>
+       <a href="#dmitrievskii_sobor"><li>Дмитриевский собор</li></a>
+       <a href="#sobor_syzdal"><li>Собор рождества Богородицы</li></a>
+       <a href="#spaso-preobrazhenskii_sobor"><li>Спасо-Преображенский собор</li></a>
+       <a href="#uspenskii_moscow"><li>Успенский собор Московкого Кремля</li></a>
+</ol>
+
+<a id="uspenskiy_sobor"></a>
+ <figure>
+    <p><img src="img/uspenskiy_sobor.png" width="400"></p>
+    <figcaption><h2>Успенский собор во Владимире</h2></figcaption>
+  </figure>
+
+<a id="dmitrievskii_sobor"></a>
+<figure>
+    <p><img src="img/dmitrievskii_sobor.png" width="400"></p>
+    <figcaption><h2>Дмитриевский собор</h2></figcaption>
+  </figure>
+
+<a id="sobor_syzdal"></a>
+<figure>
+    <p><img src="img/sobor_syzdal.png" width="400"></p>
+    <figcaption><h2>Собор рождества Богородицы</h2></figcaption>
+  </figure>
+
+<a id="spaso-preobrazhenskii_sobor"></a>
+<figure>
+    <p><img src="img/spaso-preobrazhenskii_sobor.png" width="400"></p>
+    <figcaption><h2>Спасо-Преображнеский собор</h2></figcaption>
+  </figure>
+
+<a id="uspenskii_moscow"></a>
+<figure>
+    <p><img src="img/uspenskii_moscow.png" width="400"></p>
+    <figcaption><h2>Успенский собор Московского Кремля</h2></figcaption>
+  </figure>
+
+<a href="#back">Назад</a>
+
+</body>
+</html>
