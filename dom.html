@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM</title>
+<style>
+    .menu-wrapper {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .menu {
+      display: inline-block;
+      text-align: left;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu li {
+      margin: 5px 0;
+    }
+
+    .menu a {
+      display: block;
+      padding: 8px 16px;
+      text-decoration: none;
+      color: #7a1f1f;
+      border: 1px solid #d4c8b0;
+      background: #faf7f2;
+    }
+
+    .menu a:hover {
+      background-color: antiquewhite;
+    }
+
+    .menu a.active {
+      background-color: burlywood;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+  display: block;
+  margin: 0 auto;
+}
+
+  </style>
+
+</head>
+<body>
+
+<a href="kr.html" class="back">
+    <img src="strelka.jpeg" width="100" alt="назад" style="margin-left: 350px;">
+  </a>
+
+  <h1>Меню</h1>
+
+  <div class="menu-wrapper">
+    <ul class="menu">
+      <li><a href="kr.html">Главная</a></li>
+      <li><a href="table.html">Таблица</a></li>
+      <li><a href="photo.html">Фото</a></li>
+      <li><a href="form.html">Форма с личными данными</a></li>
+      <li><a href="form2.html">Отзывы</a></li>
+      <li><a href="dom.html" class="active">DOM_JS</a></li>
+      <li><a href="passport2.html">Изменяем кириллицу на латиницу по клику</a></li>
+      <li><a href="task1.html">Решение алгоритмической задачи</a></li>
+    </ul>
+  </div>
+
+  <img src="img/dom.png" width="600px">
+
+
+</body>
+</html>
