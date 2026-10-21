@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title_passport</title>
+
+  <style>
+    body{
+      background-image: url(passpotr.png);
+      background-position: center 550px;
+      background-repeat: no-repeat;
+      min-height: 1200px;
+      margin: 0;
+    }
+
+    .fio{
+      margin-left: 690px;
+      margin-top: 370px;
+      color: blue;
+    }
+
+    .name{
+      margin-left: 665px;
+      margin-top: 25px;
+      color: royalblue;
+    }
+
+    .s_name{
+      margin-left: 675px;
+      margin-top: 5px;
+      color: teal;
+    }
+
+    .data_b{
+      margin-left: 665px;
+      margin-top: 5px;
+      color: navy;
+    }
+
+    .img{
+      margin-left: 535px;
+      margin-top: -70px;
+    }
+
+    .btn{
+      margin-left: 540px;
+      margin-top: -300px;
+    }
+  </style>
+
+  <style>
+    .menu-wrapper {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .menu {
+      display: inline-block;
+      text-align: left;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu li {
+      margin: 5px 0;
+    }
+
+    .menu a {
+      display: block;
+      padding: 8px 16px;
+      text-decoration: none;
+      color: #7a1f1f;
+      border: 1px solid #d4c8b0;
+      background: #faf7f2;
+    }
+
+    .menu a:hover {
+      background-color: antiquewhite;
+    }
+
+    .menu a.active {
+      background-color: burlywood;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+
+
+</head>
+
+<body>
+<a href="kr.html" class="back"><img src="strelka.jpeg" width="100" alt="назад"style="margin-left: 350px;"></a>
+<h1>Меню</h1>
+
+  <div class="menu-wrapper">
+    <ul class="menu">
+      <li><a href="kr.html">Главная</a></li>
+      <li><a href="table.html">Таблица</a></li>
+      <li><a href="photo.html">Фото</a></li>
+      <li><a href="form.html">Форма с личными данными</a></li>
+      <li><a href="form2.html">Отзывы</a></li>
+      <li><a href="dom.html">DOM_JS</a></li>
+      <li><a href="passport2.html" class="active">Изменяем кириллицу на латиницу по клику</a></li>
+      <li><a href="task1.html">Решение алгоритмической задачи</a></li>
+    </ul>
+  </div>
+
+<div class="fio" id="fio">Орловская</div>
+
+<div class="name" id="name">София</div>
+
+<div class="s_name" id="s_name">Михайловна</div>
+
+<div class="data_b" id="data_b">Жен &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 02/10/2006</div>
+
+<div class="img"><img id="photo" src="men.jpg" height="120" width="100"></div>
+
+<button class="btn" id="change">Заменить</button>
+
+<script src="change.js"></script>
+
+</body>
+</html>
