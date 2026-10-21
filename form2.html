@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Отзывы</title>
+   <style>
+    .menu-wrapper {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .menu {
+      display: inline-block;
+      text-align: left;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu li {
+      margin: 5px 0;
+    }
+
+    .menu a {
+      display: block;
+      padding: 8px 16px;
+      text-decoration: none;
+      color: #7a1f1f;
+      border: 1px solid #d4c8b0;
+      background: #faf7f2;
+    }
+
+    .menu a:hover {
+      background-color: antiquewhite;
+    }
+
+    .menu a.active {
+      background-color: burlywood;
+    }
+
+    h1 {
+      text-align: center;
+    }
+  </style>
+
+</head>
+<body>
+<a href="kr.html" class="back"><img src="strelka.jpeg" width="100" alt="назад"style="margin-left: 350px;"></a>
+
+<h1>Меню</h1>
+
+  <div class="menu-wrapper">
+    <ul class="menu">
+      <li><a href="kr.html">Главная</a></li>
+      <li><a href="table.html">Таблица</a></li>
+      <li><a href="photo.html">Фото</a></li>
+      <li><a href="form.html">Форма с личными данными</a></li>
+      <li><a href="form2.html"class="active">Отзывы</a></li>
+      <li><a href="dom.html">DOM_JS</a></li>
+      <li><a href="passport2.html">Изменяем кириллицу на латиницу по клику</a></li>
+      <li><a href="task1.html">Решение алгоритмической задачи</a></li>
+    </ul>
+  </div>
+<h3 style="text-align: center;">Отзывы</h3>
+<form action="https://www.ya.ru?" id="UserEnter" name="UserEnter" target="_blank"
+      style="width: fit-content; margin: 0 auto;">
+
+  <p>Логин:
+    <input maxlength="25" size="50" name="login"></p>
+   <p>Пароль:
+    <input type="password" maxlength="25" size="50" name="password"></p>
+
+  <p>Город:</p>
+   <input type="radio" name="city" value="vladimir" checked> Владимир
+   <input type="radio" name="city" value="syzdal"> Суздаль
+   <input type="radio" name="city" value="pereslavl"> Переславль-Залесский
+   <input type="radio" name="city" value="moscow"> Москва
+
+   <p>Собор:</p>
+  <input type="radio" name="sobor" value="uspenskii" checked> Успенский собор
+   <input type="radio" name="sobor" value="dmitrievskii"> Дмитриевский собор
+   <input type="radio" name="sobor" value="rozhdestvo"> Собор Рождества Богородицы
+   <input type="radio" name="sobor" value="preobrazhenskii"> Спасо-Преображенский собор
+
+  <p>Оценка: <input type="number" name="rate" size="20"min="1" max="10" step="1" ></p>
+
+  <p>Преимущества</p>
+   <input type="checkbox" name="advantages" value="parking"> Парковка
+   <input type="checkbox" name="advantages" value="public_transport"> Удобный общественный транспорт
+   <input type="checkbox" name="advantages" value="toilet"> Туалет
+   <input type="checkbox" name="advantages" value="cafe"> Кафе / супермаркеты поблизости
+   <input type="checkbox" name="advantages" value="view"> Панорамный вид
+
+
+   <p>Недостатки:<br>
+  <textarea name="disadvantages" rows="5" cols="50"></textarea>
+</p>
+
+  <p>
+        <input type="Reset" name="Reset" value="Обновить">
+        <input type="Submit" name="Submit" value="Отправить">
+      </p>
+
+</form>
+
+</body>
+</html>
